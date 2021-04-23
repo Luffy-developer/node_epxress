@@ -7,6 +7,12 @@ var sqls = {
   users: 'select * from user',
   // 注册
   register: 'insert into user(login_name, password, create_time, flag) value(?, ?, ?, 1)',
+  // 上传文件
+  uploadFile: 'insert into upload value(?, ?, ?, ?, ?)',
+  // 获取文件
+  getFile: 'select ',
+  // 重新上传文件
+  updateFiles: 'update upload'
 }
 
 // 处理数据库中的数据
