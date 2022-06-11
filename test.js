@@ -8,6 +8,10 @@ function run() {
     console.log('run!');
 }
 
+function dance() {
+    console.log('dance!');
+}
+
 function eat() {
     console.log('eating..');
 }
