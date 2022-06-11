@@ -57,3 +57,8 @@ function onListening() {
     'port' + addr.port;
   debug('Listening on' + bind);
 }
+
+
+function say() {
+  console.log('123');
+}
